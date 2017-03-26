@@ -1,5 +1,5 @@
-import time
 from selenium import webdriver
+import time
 
 driver = webdriver.PhantomJS()  # Optional argument, if not specified will search path.
 driver.set_window_size(1120, 550)
