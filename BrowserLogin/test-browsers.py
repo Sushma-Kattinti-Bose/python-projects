@@ -15,23 +15,10 @@ class TestChrome(unittest.TestCase):
     
     def test_login_chrome(self):
         page = LoginPage()
-        page.login(self.driver, "xxxxx@yahoo.co.in","xxxxx!")
+        page.login(self.driver, "nuttysush19@yahoo.co.in","beaukattinti1!")
 
     def tearDown(self):
         self.driver.quit()
-
-# class TestFirefox(unittest.TestCase):
-    
-#     def setUp(self):
-#         self.driver = webdriver.Firefox()
-#         self.driver.get("https://www.facebook.com/")
-    
-#     def test_login_firefox(self):
-#         page = LoginPage()
-#         page.login(self.driver, "xxxxx@yahoo.co.in","xxxxx!")
-
-#     def tearDown(self):
-#         self.driver.quit()
 
 if __name__ == '__main__':
     HTMLTestRunner.main()
