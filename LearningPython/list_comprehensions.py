@@ -14,8 +14,17 @@ def list_comprehensions():
     sent += "of their party"
     words = sent.split(' ')
     wlen = [(word, len(word)) for word in words]
-    for i in wlen:
+    view = sorted(wlen, key=compare)
+    for i in view:
         print(i)
+
+
+def compare(tup):
+    """
+    Fuck Dockstrings
+    lambda x:x[1]
+    """
+    return tup[1]
 
 if __name__ == "__main__":
     list_comprehensions()
