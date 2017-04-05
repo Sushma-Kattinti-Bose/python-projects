@@ -20,8 +20,7 @@ def list_comprehensions():
 
 
 def compare(tup):
-    """
-    Fuck Dockstrings
+    """Fuck Dockstrings
     lambda x:x[1]
     """
     return tup[1]
