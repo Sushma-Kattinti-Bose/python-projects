@@ -36,16 +36,12 @@ def remove_duplicates_main():
     print("Enter the sentence")
     sentence = str(input())
     print(remove_duplicates(sentence))
-    
+
 if __name__ == "__main__":
     print(fact(10))
-
-
-if __name__ == "__main__":
     explode_main()
-
-if __name__ == "__main__":
     remove_duplicates_main()
+
 
 
 
