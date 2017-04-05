@@ -10,4 +10,3 @@ def iterative_factorial():
 
 if __name__ == "__main__":
     iterative_factorial()
-    
