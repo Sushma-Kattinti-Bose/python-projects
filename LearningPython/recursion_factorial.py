@@ -14,15 +14,14 @@ def explode(word):
         return word[0] + ' ' + explode(word[1:])
 
 
-if __name__ == "__main__":
-    print(fact(10))
-
-
 def explode_main():
 
     print("Enter the word")
     strng = input()
     print(explode(strng))
+
+if __name__ == "__main__":
+    print(fact(10))
 
 
 if __name__ == "__main__":
