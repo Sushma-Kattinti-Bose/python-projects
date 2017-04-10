@@ -2,7 +2,7 @@
 
 echo 'Running tests ...'
 
-python hello.py
+python count_vowels.py
 
 if (( $? > 0 ))
 then
